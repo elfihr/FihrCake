@@ -1,0 +1,21 @@
+.footer{
+    background-color: #FFF8F3;
+    padding:  5rem 10%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialMedia svg{
+    font-size: 6rem;
+}
+
+.socialMedia svg:hover{
+    color: var(--font-font-third);
+    transition: 0.5s;
+}
+
+.socialMedia svg:active{
+    transform: scale(0.95);
+}

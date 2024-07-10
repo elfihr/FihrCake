@@ -1,0 +1,102 @@
+.testimonials{
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: var(--font-font-third);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.titleIntro{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.bakerImg{
+    width: 35rem;
+    height:38rem;
+}
+
+.testimonialsReview{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.clientProfile{
+    display: flex;
+    align-items: center;
+}
+
+.clientProfile h4{
+    font-size: 2rem;
+}
+
+
+.clientProfileDesciption{
+    margin-top: 1rem;
+}
+.client{
+    width: 6rem;
+    margin-right: 2rem;
+    border-radius: 5rem;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.20);
+}
+
+
+.starContainer{
+    display: flex;
+}
+.rating{
+    width: 1.2rem;
+    height: 1.2rem;
+    user-select: none;
+    margin-left: 0.5rem;
+}
+
+.testimonialsReview p{
+    display: flex;
+}
+
+
+.vejaMaisContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.vejaMais{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: var(--font-font-third);
+    font-size: 1.2rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border: none;
+    height: 3.5rem;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.25);
+}
+
+.vejaMais:hover{
+    background-color: rgb(242, 195, 77);
+    transition: 0.3s;
+}
+
+.vejaMais:active{
+    transform: scale(0.95);
+}
+
+/*=================================================Responsive 753px==============================================*/
+
+@media (max-width: 753px) {
+    .bakerImg{
+        display: none;
+    }
+}

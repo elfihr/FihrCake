@@ -1,0 +1,95 @@
+.menu {
+    margin-top: 5rem;
+}
+
+.menu h2{
+    color: goldenrod;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.menuDescription{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+/* ContainerGeral */
+.menuImgContainer {
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+}
+
+/* COntainer das importações */
+.containerImg{
+ margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 350px;
+  height: 340px;
+  padding: 0 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.heartFav{
+    position: absolute;
+    background-color: goldenrod;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    right: -0.5rem;
+    border-radius: 0 2rem 0 3rem; 
+}
+
+.heartFav svg{
+    color: #FFF8F3;
+}
+
+.heartFav svg:visited{
+    color: red;
+}
+
+.cakeImg {
+    width: 10rem;
+    user-select: none;
+}
+
+.containerImg h3{
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.starRating {
+    display: flex;
+    align-items: center;
+}
+
+.starRating img {
+    width: 1.5rem;
+    height: 1.5rem;
+    user-select: none;
+}
+
+.containerImg p{
+    text-align: center;
+}
+
+@media screen and (max-width: 1508px) {
+    .menuImgContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem ; 
+        margin-left: 2rem;
+    }
+
+}
