@@ -11,7 +11,7 @@ import star from '../assets/rating.png'
 export const navItems = [
      { label: "Cardapio", href: '#cardapio' },
      { label: "Depoimentos", href: '#depoimentos' },
-     { label: "Contatos", href: '#/' }
+     { label: "Contatos", href: '#/',class:'ok' }
 ]
 
 export const menuCakes = [

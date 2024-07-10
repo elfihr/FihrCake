@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar from './component/Navbar';
-import Footer from './page/Footer';
+import Footer from './component/Footer';
 import Hero from './page/Hero';
 import Menu from './page/Menu'
 import Testimonials from './page/Testimonials';
