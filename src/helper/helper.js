@@ -26,7 +26,7 @@ export const menuCakes = [
      {
           image: cake02,
           title: "CheeseCake de Morango",
-          description:'Bolo de chocolate com recheio multi-camadas',         
+          description:'O melhor dos morangos selecionados',         
           rating: star,
           likes:" (+600)",
           price: "54,00",
