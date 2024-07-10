@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root{
   --color-font-firt:#000000;
   --color-font-second:#fff;

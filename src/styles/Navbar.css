@@ -29,11 +29,11 @@
     margin-left: 40px;
     text-decoration: none;
     margin-left: 2.0em;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 700;
     border-bottom: none;
-
     user-select: none;
+    transition: 0.3s;
 }
 
 .btnPedido{
@@ -91,9 +91,13 @@
     .btnPedido{
         margin-left: 1.5rem;     
     }
+    .navBar a{
+        margin-left: 1.2em;
+        font-size: 1.1rem;
+    }
 }
 
-/*=================================================Responsive 938px==============================================*/
+/*=================================================Responsive 827px==============================================*/
 @media (max-width: 827px) {
     .btnPedido{
         margin-left: 0.5rem;     
