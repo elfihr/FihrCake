@@ -20,7 +20,7 @@ const Hero = () => {
                     <div className='btnCatalogo'>
                         <button>Ver Catalago</button>
                     </div>
-                    <label className='callPhone'><div><CallIcon /></div><p>&nbsp;(21) 99876-5432</p></label>
+                    <label className='callPhone'><div><CallIcon /></div><p>&nbsp;(21) 9xxxx-xxxx</p></label>
                 </div>
                 <div className='social-media'>
                     <WhatsAppIcon />
